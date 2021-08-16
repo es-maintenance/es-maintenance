@@ -1,5 +1,6 @@
 {
   "name": "es-maintenance",
+  "private": true,
   "version": "0.0.1",
   "description": "A collection of tools to support maintaining a large JS/TS codebase.",
   "repository": {

@@ -1,0 +1,25 @@
+{
+  "name": "@es-maintenance/static-analysis",
+  "version": "0.0.1",
+  "description": "A tool to measure the ability to statically analyze a JS/TS codebase.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/es-maintenance/es-maintenance.git"
+  },
+  "author": "lbdm44",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/es-maintenance/es-maintenance/issues"
+  },
+  "homepage": "https://github.com/es-maintenance/es-maintenance#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  }
+}

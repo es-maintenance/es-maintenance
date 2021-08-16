@@ -1,0 +1,20 @@
+{
+  "name": "es-maintenance",
+  "version": "0.0.1",
+  "description": "A collection of tools to support maintaining a large JS/TS codebase.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/es-maintenance/es-maintenance.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/es-maintenance/es-maintenance/issues"
+  },
+  "homepage": "https://github.com/es-maintenance/es-maintenance#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "volta": {
+    "node": "16.6.2"
+  }
+}

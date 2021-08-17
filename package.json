@@ -17,5 +17,16 @@
   ],
   "volta": {
     "node": "16.6.2"
+  },
+  "devDependencies": {
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2"
+  },
+  "lint-staged": {
+    "*.{js,json,css,md,ts}": "prettier --write"
+  },
+  "scripts": {
+    "prepare": "husky install"
   }
 }

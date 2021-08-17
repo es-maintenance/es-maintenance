@@ -4,7 +4,8 @@
   "description": "A tool to measure the ability to statically analyze a JS/TS codebase.",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf ./dist",
     "test": "jest"
   },
   "repository": {
